@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Illinois Rack Enterprises Inc. - Contact</title>
+    <meta name="description" content="Get into touch or find us on Google maps" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/services-slider.css">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="css/client-testimonials.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.1.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/social-icons.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(window).on("load", function() {
+            $(".se-pre-con").fadeOut("slow");
+        });
+    </script>
+</head>
+<body>
+    <div class="se-pre-con"></div>
+    <header class="nav-down">
+        <div class="container clearfix">
+            <div id="logo">
+                <a href="index.html">
+                    <img src="images/logo.jpg" alt="Illinois Rack Logo">
+                </a>
+            </div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="about.html">About</a>
+                <a href="contact.html" id="selected">Contact</a>
+            </nav>
+
+        </div><!--.container -->
+    </header>
+    <main>
+        <span id="scroll-into-success"></span>
+        <section id="contact">
+            <div class="container clearfix">
+                <div class="contact-col_1">
+                    <form>
+                        <h1>Get into touch</h1>
+                        <input id="name" placeholder="Name" type="text"  value="" required>
+                        <input id="email" placeholder="Email address" type="email" onblur="this.setAttribute('value', this.value);" value="" required>
+                        <span class="validation-text">Please enter a valid email address.</span>
+                        <input id="location" placeholder="Location" type="text" value="" required>
+                        <div class="flex">
+                            <textarea id="message" placeholder="Message" rows="1" required></textarea>
+                        </div>
+                        <button type="submit">Send</button>
+                    </form>
+                    <p id="success">We will be in touch shortly!</p>
+                </div><!--contact form-->
+                <div class="contact-col_2">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11799.58195950889!2d-88.2061125!3d42.3234278!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf2c6d53352787d86!2sIllinois+Rack+Enterprises!5e0!3m2!1sen!2sus!4v1498719690123" height="489" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div><!--google map-->
+            </div>
+        </section><!--.contact -->
+    </main>
+    <footer>
+        <div class="container clearfix">
+            <div class="col-sm border-right">
+                <h2>Contact</h2>
+                <p>
+                    email: <a href="mailto:info@illinoisrack.com">info@illinoisrack.com</a><br>
+                    phone: <a href="tel:815-385-5750">815-385-5750</a><br>
+                    fax: <a href="tel:815-385-3560">815-385-3560</a><br>
+                </p>
+                <h2>Correspondence</h2>
+                <address>
+                    Illinois Rack Enterprises, Inc.<br>
+                    480 Scotland Rd<br>
+                    Lakemoor, IL 60051
+                </address>
+            </div>
+            <div class="col-sm border-right footer-margin">
+                <h2>Links</h2>
+                <a href="index.html">Home</a><br><br>
+                <a href="services.html">Services</a><br><br>
+                <a href="about.html">About</a><br><br>
+                <a href="contact.html">Contact</a><br><br>
+            </div>
+            <div class="col-sm footer-margin">
+                <h2>Follow</h2>
+                <a href="https://twitter.com/" class="icon-button twitter"><i class="icon-twitter"></i><span></span></a>
+                <a href="https://facebook.com" class="icon-button facebook"><i class="icon-facebook"></i><span></span></a>
+                <a href="https://plus.google.com" class="icon-button google-plus"><i class="icon-google-plus"></i><span></span></a>
+            </div>
+        </div><!--.container -->
+        <p class="copy-right">© Illinois Rack Enterprises Inc. <script type="text/javascript">
+            document.write(new Date().getFullYear());
+        </script></p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/3.3.6/scrollreveal.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript" src="js/global-scripts.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>

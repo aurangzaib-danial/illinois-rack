@@ -1,0 +1,270 @@
+/************ Global ***********/
+@media only screen and (max-width: 1108px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    header {
+        padding-top: 10px;
+        height: 120px;
+    }
+    header nav {
+        float: none;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    header #logo{
+        float: none;
+        margin: 0 auto;
+        width: 40px;
+        height: 47px;
+    }
+    .nav-up {
+        top: -120px;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    header {
+        height: 100px;
+    }
+    .nav-up {
+        top: -100px;
+    }
+    header #logo {
+        width: 30px;
+        height: 37px;
+    }
+
+    header nav {
+        margin-top: 5px;
+    }
+
+    header nav a {
+        padding: 10px;
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    header nav a {
+        padding: 10px 5px;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    header nav a {
+        font-size: 0.9em;
+    }
+}
+
+
+@media only screen and (max-width: 960px){
+    .col-2 {
+        float: none;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 1070px){
+    .col-sm {
+        width: 100%;
+        float: none;
+        border: none;
+        padding: 0;
+        margin: 0;
+        height: auto;
+    }
+}
+
+/************ Index Page ***********/
+
+@media only screen and (max-width: 850px) {
+    #welcome {
+        padding-top: 150px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    #welcome h1{
+        font-size: 3em;
+    }
+    #welcome h2{
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #welcome h1{
+        font-size: 2.5em;
+    }
+    #welcome h2{
+        font-size: 1.5em;
+    }
+    .simple blockquote p {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 520px) {
+    #break-word {
+        display: inline;
+    }
+}
+
+@media only screen and (max-width: 960px){
+    .card {
+        margin: 0 auto;
+    }
+    .slick-next, .slick-prev {
+        display: none !important;
+    }
+
+}
+
+
+@media only screen and (max-width: 480px) {
+    .card .products {
+        height: 480px;
+    }
+    .card .title {
+        font-size: 20px;
+    }
+    .card p {
+        font-size: 0.9em;
+    }
+    .card .thumbnail {
+        margin-bottom: 10px;
+    }
+    .card .learn-more {
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .card .products {
+        height: 460px;
+    }
+    .card {
+        padding: 48px 28px;
+    }
+
+    #services-intro h1:first-child, #client-testimonials h1 {
+        font-size: 1.5em;
+    }
+}
+
+/************ About Page ***********/
+@media only screen and (max-width: 990px){
+    .team-col {
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 670px){
+    #about {
+        font-size: 1em;
+        padding-top: 130px;
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    #team h1 {
+        font-size: 1.5em;
+    }
+}
+
+/************ Contact Page ***********/
+
+@media only screen and (max-width: 1000px){
+    #contact {
+        padding-top: 140px;
+        padding-bottom: 20px;
+    }
+
+    .contact-col_1{
+        float: none;
+        width: 100%;
+
+    }
+    .contact-col_2 {
+        float: none;
+        width: 100%;
+        margin: 30px auto 0 auto;
+    }
+
+    form {
+        margin: 0 auto;
+    }
+
+    #success {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 540px) {
+    form h1 {
+        font-size: 1.5em;
+    }
+
+    form {
+        width: 100%;
+    }
+    input,
+    textarea,
+    .validation-text,
+    form button {
+        width: 83% !important;
+    }
+    #success {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .remodal span.validation-text {
+        left: 60px;
+    }
+}
+
+/************ Services Page ***********/
+@media only screen and (max-width: 990px){
+
+    #services article h2 {
+        margin-top: 20px;
+
+    }
+    .article-col1, .article-col2 {
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+    .article-col1 {
+        text-align: center;
+    }
+    .article-col1 img {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 850px){
+    #services {
+        padding-top: 110px;
+    }
+}
+
+@media only screen and (max-width: 520px){
+    #services {
+        padding-top: 90px;
+    }
+    .article-col1 img {
+        width: 100%;
+    }
+}

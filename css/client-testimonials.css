@@ -1,0 +1,30 @@
+.white-back{
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    background: #fff;
+}
+.simple blockquote p {
+    border-top: 1px #60BE2D solid;
+    border-bottom: 1px #60BE2D solid;
+    color: black;
+    padding: 25px;
+    font-size: 1.25em;
+    font-style: italic;
+    text-align: center;
+}
+.simple cite {
+    font-size: 1.2em;
+    float: right;
+    font-style: normal;
+    color: black;
+}
+.simple cite span {
+    color: #60BE2D;
+    font-style: italic;
+    font-size:.85em;
+}
+
+/* A custom cursor to let folks know they can drag things */
+
+.simple blockquote p{
+    cursor: url("../images/cursor.png"), auto;
+}
